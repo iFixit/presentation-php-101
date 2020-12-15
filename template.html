@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PHP 101</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <style type="text/css">
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body {
+        font-family: 'Droid Serif';
+      }
+      h1, h2, h3 {
+        font-family: Helvetica, Arial;
+        font-weight: bold;
+      }
+      .remark-slide h3 {
+        font-size: 40px;
+      }
+      .remark-slide h2 {
+        font-size: 50px;
+      }
+      .remark-slide h1 {
+        font-size: 60px;
+      }
+      .remark-slide p {
+        padding: 10px;
+        font-size: 32px;
+      }
+      .remark-slide li {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 24px;
+      }
+      .remark-slide pre {
+        text-align: left;
+        background-color: #f0f0f0;
+        padding: 10px 10px;
+      }
+      .remark-code, .remark-inline-code {
+        font-family: Insonsolata, monospace;
+        font-size: 25px;
+        line-height: 1.5;
+      }
+      .strong {
+        font-weight: 600;
+        color: #ff0066;
+      }
+      #source {
+        display: none;
+      }
+    </style>
+  </head>
+  <body onload="var slideshow = remark.create();">
+    <textarea id="source"><%= file("presentation.md") %></textarea>
+    <script src="remark-latest.min.js"></script>
+  </body>
+</html>
